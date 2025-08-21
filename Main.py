@@ -5,7 +5,7 @@ from aiogram.filters import Command
 import datetime
 import os
 
-TOKEN = "8364843670:AAH40MN71Bhb6CjMALhClzdoqR4C0RCdnfc"
+TOKEN = "Bot_token"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -101,3 +101,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
